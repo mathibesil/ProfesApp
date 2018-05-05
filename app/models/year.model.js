@@ -7,7 +7,7 @@ const YearSchema = mongoose.Schema({
     default: "",
     unique: true,
     required: true,
-    trim: true
+    trim: true  
   },
   descripcion: {
     type: String,

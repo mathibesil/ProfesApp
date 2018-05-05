@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb://profes:profes.android@vpn.stratus.uy:57017/profes'
+    url: 'mongodb://besil:44275590mbB1@profesapp-wk0zs.mongodb.net/profes'
 }

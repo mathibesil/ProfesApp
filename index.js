@@ -59,6 +59,6 @@ app.use(function (err, req, res, next) {
 });
 
 // listen for requests process.env.PORT
-app.listen(33000, () => {
+app.listen(process.env.PORT || 33000, () => {
     console.log("Server is listening on port 33000");
 });
